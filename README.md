@@ -27,7 +27,7 @@ These insights are product of the EDA.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/8da899d7-b7ea-4c4c-ba78-ca2074eae3a9)
 4. If you are not married, you are more likely to not recieve a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/aae9bf55-43c7-422f-91f9-48bcd546de59)
-5. If you do not have a credi history, is extremely unlikely that you recieve a loan.
+5. If you do not have a credit history, is extremely unlikely that you recieve a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/f57c8047-9601-4ec3-8234-c9d6f7381c5a)
 6. Womem seems to have a lower income, but it does not influence to get or not a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/4422dad9-4119-4bca-8756-e48c60ed3e8b)
