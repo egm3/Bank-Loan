@@ -12,17 +12,17 @@ Interest on loans is a fundamental aspect of how banks make money and is a signi
 
 With a good loan prediction the bank can improve in several aspects. As following:
 
-*Risk Management*: By accurately predicting loan status, banks can assess the level of risk associated with each loan application. This allows them to make informed decisions about whether to approve or deny a loan, thereby minimizing the risk of default and potential losses.
+**Risk Management**: By accurately predicting loan status, banks can assess the level of risk associated with each loan application. This allows them to make informed decisions about whether to approve or deny a loan, thereby minimizing the risk of default and potential losses.
 
-*Profitability*: Predicting loan status enables banks to optimize their lending practices to maximize profitability. By identifying low-risk borrowers, banks can offer them more favorable loan terms, such as lower interest rates, while charging higher rates to high-risk borrowers. This helps banks to maintain healthy profit margins while attracting reliable customers.
+**Profitability**: Predicting loan status enables banks to optimize their lending practices to maximize profitability. By identifying low-risk borrowers, banks can offer them more favorable loan terms, such as lower interest rates, while charging higher rates to high-risk borrowers. This helps banks to maintain healthy profit margins while attracting reliable customers.
 
-Compliance: Banks are subject to regulatory requirements that mandate responsible lending practices. Predicting loan status helps banks ensure compliance with these regulations by assessing the creditworthiness of borrowers and avoiding lending to individuals or businesses that are unlikely to repay their loans.
+**Compliance**: Banks are subject to regulatory requirements that mandate responsible lending practices. Predicting loan status helps banks ensure compliance with these regulations by assessing the creditworthiness of borrowers and avoiding lending to individuals or businesses that are unlikely to repay their loans.
 
-*Customer Satisfaction*: Accurate loan status prediction allows banks to offer better customer service by providing timely loan approvals or rejections. This enhances the overall customer experience and fosters goodwill towards the bank, leading to higher customer satisfaction and loyalty.
+**Customer Satisfaction**: Accurate loan status prediction allows banks to offer better customer service by providing timely loan approvals or rejections. This enhances the overall customer experience and fosters goodwill towards the bank, leading to higher customer satisfaction and loyalty.
 
-*Portfolio Management*: Understanding the predicted status of loans in their portfolio enables banks to manage their assets more effectively. By identifying potential problem loans early on, banks can take proactive measures to mitigate risk, such as restructuring loans or setting aside reserves for potential losses.
+**Portfolio Management**: Understanding the predicted status of loans in their portfolio enables banks to manage their assets more effectively. By identifying potential problem loans early on, banks can take proactive measures to mitigate risk, such as restructuring loans or setting aside reserves for potential losses.
 
-*Competitive Advantage*: Banks that can effectively predict loan status gain a competitive edge in the market. They can attract more customers by offering competitive loan products and better terms, while simultaneously minimizing their exposure to risky borrowers. This strengthens the bank's position in the industry and enhances its reputation as a reliable financial institution.
+**Competitive Advantage**: Banks that can effectively predict loan status gain a competitive edge in the market. They can attract more customers by offering competitive loan products and better terms, while simultaneously minimizing their exposure to risky borrowers. This strengthens the bank's position in the industry and enhances its reputation as a reliable financial institution.
 
 ## 4. Insights from the Exploratory Data Analysis
 EDA is primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a provides a better understanding of data set variables and the relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate.
