@@ -2,22 +2,30 @@
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/42ffe897-71d6-4172-9250-c4060a9be612)
 
 ## 1. Description
-This a beginner machine learning project that uses decision trees to decide if a bank should or not grant a loan to a costumer.
+This a beginner machine learning project that uses decision trees to decide if a bank should or not grant a loan to a costumer. The primary aim of this project is to conduct an Exploratory Data Analysis (EDA) on a dataset pertaining to Loan Status. The ultimate goal is to leverage machine learning techniques to predict whether to approve or deny a loan application for a client. Through comprehensive data exploration and sophisticated modeling, the project seeks to uncover insights that will inform the decision-making process in lending, ensuring optimal outcomes for both the financial institution and its clientele.
 
 ## 2. Tools
 This project was completely made in Python(**Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn**), Jupyter Notebook(anaconda) and Git/Github.
 
 ## 3. Introduction to the problem
-The interest earned on loans is a crucial revenue source for banks, making loan prediction vital. Accurate predictions offer several advantages:
-1. Risk Management: Banks can assess each loan's risk level, minimizing defaults and losses.
-2. Profitability: Optimizing lending practices ensures healthy profit margins by offering favorable terms to low-risk borrowers.
-3. Compliance: Predicting loan status helps banks comply with regulations by assessing borrower creditworthiness.
-4. Customer Satisfaction: Timely loan decisions improve customer service, fostering loyalty.
-5. Portfolio Management: Identifying problem loans early allows for proactive risk mitigation.
-6. Competitive Advantage: Effective loan prediction enhances a bank's reputation and market position, attracting more customers and minimizing exposure to risky borrowers.
+Interest on loans is a fundamental aspect of how banks make money and is a significant contributor to their revenue streams. When a bank lends money to individuals, businesses, or other entities, it charges interest on the principal amount borrowed. This interest is essentially the cost of borrowing money and is expressed as a percentage of the loan amount. Therefore, predicting loan status is crucial for banks.
 
-## 4. A few insights of the project
-These insights are product of the EDA.
+With a good loan prediction the bank can improve in several aspects. As following:
+
+*Risk Management*: By accurately predicting loan status, banks can assess the level of risk associated with each loan application. This allows them to make informed decisions about whether to approve or deny a loan, thereby minimizing the risk of default and potential losses.
+
+*Profitability*: Predicting loan status enables banks to optimize their lending practices to maximize profitability. By identifying low-risk borrowers, banks can offer them more favorable loan terms, such as lower interest rates, while charging higher rates to high-risk borrowers. This helps banks to maintain healthy profit margins while attracting reliable customers.
+
+Compliance: Banks are subject to regulatory requirements that mandate responsible lending practices. Predicting loan status helps banks ensure compliance with these regulations by assessing the creditworthiness of borrowers and avoiding lending to individuals or businesses that are unlikely to repay their loans.
+
+*Customer Satisfaction*: Accurate loan status prediction allows banks to offer better customer service by providing timely loan approvals or rejections. This enhances the overall customer experience and fosters goodwill towards the bank, leading to higher customer satisfaction and loyalty.
+
+*Portfolio Management*: Understanding the predicted status of loans in their portfolio enables banks to manage their assets more effectively. By identifying potential problem loans early on, banks can take proactive measures to mitigate risk, such as restructuring loans or setting aside reserves for potential losses.
+
+*Competitive Advantage*: Banks that can effectively predict loan status gain a competitive edge in the market. They can attract more customers by offering competitive loan products and better terms, while simultaneously minimizing their exposure to risky borrowers. This strengthens the bank's position in the industry and enhances its reputation as a reliable financial institution.
+
+## 4. Insights from the Exploratory Data Analysis
+EDA is primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a provides a better understanding of data set variables and the relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate.
 
 1. Most part of the applicants are men, do not have any dependent, are graduate, not self employed and have a credit history.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/e3764776-f9ce-4a21-ad28-d6ba0c614754)
