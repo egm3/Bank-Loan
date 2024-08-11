@@ -27,21 +27,52 @@ With a good loan prediction the bank can improve in several aspects. As followin
 ## 4. Insights from the Exploratory Data Analysis
 EDA is primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a provides a better understanding of data set variables and the relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate.
 
-1. Most part of the applicants are men, do not have any dependent, are graduate, not self employed and have a credit history.
+**4.1** Most part of the applicants are men, do not have any dependent, are graduate, not self employed and have a credit history.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/e3764776-f9ce-4a21-ad28-d6ba0c614754)
-2. The applicant income mean is about 3.5k and the loan amount requested mean is about 105k
+**4.2** The applicant income mean is about 3.5k and the loan amount requested mean is about 105k
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/3bc3ed03-8d98-47f9-b2b9-7518f97e5bc9)
-3. Seems there is no correlation between the applicant income and the loan amount requested.
+**4.3** Seems there is no correlation between the applicant income and the loan amount requested.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/8da899d7-b7ea-4c4c-ba78-ca2074eae3a9)
-4. If you are not married, you are more likely to not recieve a loan.
+**4.4** If you are not married, you are more likely to not recieve a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/c63fc346-6547-43cf-8300-273428bc1f65)
 
 
-6. If you do not have a credit history, is extremely unlikely that you recieve a loan.
+**4.5** If you do not have a credit history, is extremely unlikely that you recieve a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/789d12b9-d84d-47fd-89bd-5155c2a43da1)
 
 
-7. Womem seems to have a lower income, but it does not influence to get or not a loan.
+**4.6** Womem seems to have a lower income, but it does not influence to get or not a loan.
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/4422dad9-4119-4bca-8756-e48c60ed3e8b)
-8. People whit tree or more dependents request a higher loan
+**4.7** People whit tree or more dependents request a higher loan
 ![image](https://github.com/egm3/Bank-Loan/assets/37548107/447cfbf8-0670-4135-bf65-33d04f21dc0a)
+
+## 5. Modeling
+
+**5.1 Preprocessing:** Preprocessing is a crucial step in preparing data for modeling. It involves cleaning, transforming, and organizing raw data into a format that can be easily and effectively used by machine learning models. 
+- Handling Missing Values
+  -  Removal: Delete rows or columns with a high proportion of missing values.
+-  Data Transformation
+  - Encoding Categorical Variables
+-Data Splitting
+  - Train-Test Split: Divide the dataset into training and testing sets to evaluate the model’s performance on unseen data.
+  - Cross-Validation: Further split the data into k-folds for a more robust evaluation process.
+
+Final Considerations:
+Data Quality: Ensure the data is accurate, consistent, and relevant to the problem at hand.
+Reproducibility: Document the preprocessing steps to ensure that the process can be replicated in future iterations or on different datasets.
+
+**5.2 Build a Tree and optimize it**
+
+A decision tree is a tool we use to make predictions based on data. Think of it like a flowchart, where each question we ask splits the data into different paths, leading us closer to the final decision. For example, if we're predicting whether a customer will buy a product, the tree might ask questions like "Is the customer under 30?" or "Has the customer bought from us before?"
+
+- Asking the Right Questions: We start by asking questions that help us best separate the data into groups that are as clear as possible. For instance, we might ask if a customer is younger or older than 30 because that could tell us something about their buying habits. Then we build a preliminary tree.
+
+After that, we are ready to opitimize this tree.
+- Simplifying the Tree: After building the tree, we might notice that some branches are too complex or not very helpful. We can trim these branches to make the tree simpler and more focused, which often leads to better predictions.
+- Better Predictions: By carefully building and refining the decision tree, we make sure that our predictions are as accurate as possible. This means we can better understand customer behavior, make more informed decisions, and ultimately improve business outcomes.
+
+As final result, we got the following:
+![image](https://github.com/user-attachments/assets/3c6409fe-27e1-4654-995e-5aecfa449c44)
+
+
+It means that our Decision Tree Model can predict with a high accuracy when we should concive a loan(100% accuracy in true labels), but not that great when we shouldn't. 
